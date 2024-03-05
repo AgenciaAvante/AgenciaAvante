@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #F5AA07;
+}
+
+header {
+    background-color: #000;
+    color: #F5AA07;
+    text-align: center;
+    padding: 1em;
+    border-bottom: 10px solid #F5AA07; /* Adiciona uma borda na parte inferior do cabeçalho */
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #F5AA07; /* Adiciona uma borda nos botões */
+    padding: 8px 16px; /* Espaçamento interno ajustável */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+section {
+    padding: 2em;
+    border: 2px solid #F5AA07; /* Adiciona uma borda nas seções */
+    border-radius: 10px; /* Borda arredondada */
+    margin: 20px 0; /* Espaçamento externo ajustável */
+}
+
+footer {
+    background-color: #000;
+    color: #F5AA07;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #fff; /* Adiciona uma borda na parte superior do rodapé */
+}
+nav a {
+    text-decoration: none;
+    color: #F5AA07;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #CB07ED;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição para a mudança de cor */
+}
+nav a {
+    text-decoration: none;
+    color: #F5AA07;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #F5AA07;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição para a mudança de cor */
+}
+
+nav a:hover {
+    background-color: #8908A6;
+    color: #000;
+}
+#contato {
+    padding: 2em;
+    background-color: #000;
+    color: #F5AA07;
+    text-align: center;
+}
+
+#contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contato li {
+    margin-bottom: 10px;
+}
+
+#contato a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+.bordered-image {
+    border: 2px solid #F5AA07; /* Adicione a borda com a cor desejada */
+    border-radius: 10px; /* Opcional: Adicione bordas arredondadas */
+    display: block; /* Para garantir que a borda não afete outros elementos */
+    margin: 10px auto; /* Opcional: Adicione margens para espaçamento */
+}
